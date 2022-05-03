@@ -11,12 +11,7 @@
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
-		"ms-python.python",
-		"did1335.opencv-intellisense",
-		"gsgupta.opencv-snippets",
-		"dbaeumer.vscode-eslint",
-		"ms-vscode.cpptools",
-		"twxs.cmake"
+		"ms-python.python"
 	],
 
 	// -- External Ports --
