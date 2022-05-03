@@ -1,12 +1,12 @@
 # jupyter-devbox
 
-A Docker development box for Jupyter Notebook's with a focus on Computer Vision, Machine Learning, Statistics and Visualization.
+A Docker development box for Jupyter Notebook's with a focus on Machine Learning, Statistics and Visualization.
 
 #### What is this?
 
 This is a Docker container based on Debian Linux (see [Dockerfile](https://github.com/jakoch/jupyter-devbox/blob/main/.devcontainer/Dockerfile)).
 It sets up a Python/Jupyter Notebook development environment for Visual Studio Code.
-The pre-installed libraries include OpenCV, Tensorflow, Keras, Numpy, Pandas, Sklearn, Scipy, Matplotlib, Seaborn, Imutils, SqlAlchemy.
+The pre-installed libraries include Numpy, Pandas, Sklearn, Scipy, Matplotlib.
 
 #### What is pre-installed?
 
@@ -15,21 +15,15 @@ Base: Debian 10 - Buster
 On top of the base image the following tools are installed:
 - zsh, git, cmake
 - curl, wget
-- imagemagick, gnuplot, graphviz
 
 These programming languages are included:
- - Python 2 & 3 (including wheel, setuptools, pip)
+ - Python 3 (including wheel, setuptools, pip)
  - C & C++ (g++)
 
 The installed Python libraries are:
  - jupyter ipykernel docutils pyyaml pylint h5py
- - tensorflow keras
  - numpy pandas sklearn scipy
- - matplotlib seaborn
- - opencv-python
- - imutils
- - sqlalchemy
- - pyautogui
+ - matplotlib
 
 #### Prerequisites
 
